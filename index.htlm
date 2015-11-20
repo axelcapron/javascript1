@@ -6,13 +6,22 @@
     </head>
     <body>
     <script language='javascript'>
-         var name=window.prompt('what is your name?'); 
-         window.alert("your name is "+ name);
-         var quest=window.prompt("what is your quest ?");
-         if (quest=="to seek for the holy graill")
-              {window.alert("good");}
-         else {window.alert("arrgh");}
-
+            var name=window.prompt('Quel est ton prenom ?'); 
+            window.alert("mon prenom est  "+ name);
+            var quest=window.prompt("quel age a tu ?");
+            if(quest=="22")
+            {window.alert("bien :D");      }
+            else{window.alert("22 ans hum bien ");   }
+            var quest=window.prompt("Ils fait beaux aujourdhuit ?");
+            if(quest=="non ils pleut ")
+                {window.alert("ho non ces null");   }
+            else{window.alert(" aprés la pluie le beau temps :)");   } 
+            var name=window.prompt('tu vas faire qois se week-end?'); 
+            window.alert("travailler mon htlm");
+            var quest=window.prompt("pourqois donc ?");
+            if(quest=="pour réussir a apprendre mieux encore ")
+            {window.alert("ok bon courage ");}
+            else{window.alert(" courage !!!!!!!");}
     </script>
 </body>
 </html>
