@@ -1,44 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>htlm1</title>
-	    
-
+		<title>scrip1</title>
 	    <meta charset="UTF-8" />
     </head>
-
-
-
-
     <body>
+    <script language='javascript'>
+         var name=window.prompt('what is your name?'); 
+         window.alert("your name is "+ name);
+         var quest=window.prompt("what is your quest ?");
+         if (quest=="to seek for the holy graill")
+              {window.alert("good");}
+         else {window.alert("arrgh");}
 
-
-
-<script language='javascript'>
- window.alert('hello world!')</script>
-
-		
-					
-							
-				
-		
-   
+    </script>
 </body>
-	
-
-
-				
-			
-			
-								
-				
-						
-
-
-
-
-
-
-
-
-</htlm>
+</html>
