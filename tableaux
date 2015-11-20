@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>htlm1</title>
+	    <meta charset="UTF-8" />
+        </head>
+        <body>
+        <table>
+               <tr> 
+               <th>name</th> <td id="name"> </td>
+               </tr>
+               <tr>
+               <th>quest</th> <td id="quest"> </td>
+               </tr>
+               <tr>
+               <th>colour</th> <td id="colour"> </td>
+               </tr>
+        </table>
+         <script language='javascript'>
+                var name=window.prompt('Quel est ton prenom ?'); 
+                document.getElementById("name").innerHTML = name;
+                window.alert("mon prenom est  "+ name);
+                var quest=window.prompt("quel age a tu ?");
+                document.getElementById("quest").innerHTML = quest;
+                if(quest=="22")
+                {window.alert("bien :D");      }
+                else{window.alert("ok");   }
+                var colour=window.prompt("quels est ta couleur favorite ?");
+                document.getElementById("colour").innerHTML = colour;
+          </script>
+        </body>

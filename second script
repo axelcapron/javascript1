@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>htlm1</title>
+	    <meta charset="UTF-8" />
+        </head>
+        <body>
+              <script language='javascript'>
+               var age=window.prompt('Quel est ton age ?'); 
+               
+               if(age<30){window.alert("tu aura 30 ans dans " +(30-age));
+               
+
+
+               }
+              
+               </script>
+        </body>
+	
+
+
+				
+			
+			
+								
+				
+						
+
+
+
+
+
+
+
+
+</htlm>

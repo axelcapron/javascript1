@@ -21,7 +21,8 @@
             var quest=window.prompt("pourqois donc ?");
             if(quest=="pour réussir a apprendre mieux encore ")
             {window.alert("ok bon courage ");}
-            else{window.alert(" courage !!!!!!!");}
+            else{window.alert(" courage !!!!!!!transville
+            	");}
     </script>
 </body>
 </html>
